@@ -4,7 +4,7 @@ jobs:
   check-application:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2 # baixa os arquivos do repositorio para a maquina de build
+      - uses: actions/checkout@v2 # baixa os arquivos do repositorio para a maquina de build (ubuntu)
       - uses: actions/setup-go@v2 # action do Go lang
         with:
           go-version: 1.15
