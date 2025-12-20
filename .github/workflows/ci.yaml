@@ -29,3 +29,5 @@ jobs:
         with:
           push: false
           tags: maiconjfa/fc2.0-ci-go:latest
+
+  #
